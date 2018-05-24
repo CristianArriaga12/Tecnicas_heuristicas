@@ -22,3 +22,17 @@ Funcion busquedaTabu(n)// n es el numero de reinas
         ->x=n
         ->y=tiempo
         
+        
+        
+        Entrega viernes semana 4
+        (equipos hasta de 3)
+        ->Proyecto en netbeans comprimido
+                por correo, subject: practica 2 metaheuristicas
+         ->Reporte impreso
+                -->> Caratula 
+                -->> Introduccion
+                -->> Explicacion del problema de las n-reinas y de las vecindades en problemas de optimizacion combinatoria
+                -->>Metodo usado con las n-reinas
+                -->>Resultados
+                -->>Conclusiones y observaciones
+         
