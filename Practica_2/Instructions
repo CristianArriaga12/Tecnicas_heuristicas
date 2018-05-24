@@ -13,3 +13,10 @@ Funcion busquedaTabu(n)// n es el numero de reinas generar solucion inicial// ig
                 mejor_valor_movimiento <--valor_movmient0
                 mejor_movimiento <-- soluciom
         devuelvase mejor, movimiento
+        a entregar el codigo comprimido y reporte
+        ->graficar vs recocido simulado
+        ->desde inicial hasta la optima n=7,8,9....100
+        ->tomando el tiempo
+        ->x=n
+        ->y=tiempo
+        
