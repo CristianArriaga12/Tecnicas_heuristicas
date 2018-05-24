@@ -1,0 +1,18 @@
+funcion busquedaTabu(n)
+  solucionActual <-- [1,2,3,4,....,n]
+  listaTabu <-- [vacio={}]
+  mientras (solucionActual > 0)
+    listaCandatos <<-- generaCandidatos(solucionActual)
+**    solucionActual <<-- seleccionaMejorCndidato(listaCandidatos,listaTabu, solucion actual)
+  listaTabu <<-- listaCandidatos
+devuelve solo la solucionActual
+
+funcion seleccionaMejorCanddao(listaCandidatos, lista Tabu, solucion actual)
+  mejorMovimiento <<--solucionActual
+  mejor valor movimiento <<--f(solucion actual)
+  para(cada candidato pertenece)) <<--listaCoordenadas
+    si(candidato no pertenece a list Tabu o f(candidato)-f(solucionActual)<0)
+      si(f(candidato)-f(solucionactual) < mejorValorMovimiento)
+        mejorMovimiento <<-- solucionActual
+        mejor ValorMovimiento <<-- f(solucionActual)
+  regresa mejorMovimiento
