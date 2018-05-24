@@ -1,0 +1,15 @@
+Implementar un algoritmo de busqueda Tabú para el problema de las n-reinas con n > 6
+Funcion busquedaTabu(n)// n es el numero de reinas generar solucion inicial// igualar a solucion actual     calcular f(.) para la solucion inicial <- lista Tabu= vacio {}
+        mientras (f(.) > 0)
+          crear una lista de soluciones candidatas a partir
+          de la solucion actual usando el operador definido
+          **Seleccionar de la lista de los candidatos al mejor// sera la solucion actual
+          actualizar valores del sistema// lista Tabu
+          devuelve solucion
+        **funcion seleccionamEjorCandidato(lista candidatos)
+            para(cada solucion enlista de candidatos)
+            si(solucion NO esta en la lista tabu o f(solucion actual) - f(solucion actual <0))
+            si (valor_movimiento < mejor_valor_movimiento)
+                mejor_valor_movimiento <--valor_movmient0
+                mejor_movimiento <-- soluciom
+        devuelvase mejor, movimiento
